@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Analysis - Peer Assignment 1"
 author: "Erik Olson"
-date: "Wednesday, January 14, 2015"
+date: "Wednesday, January 17, 2015"
 output: html_document
 ---
  
@@ -129,7 +129,9 @@ The average total number of steps per day is 10766 and meadian is 10766 after fi
 
 Before fixing, the average total steps per day was 10766 and meadian is 10765
   
-The average and median did not change before and after the fix.  Full days were missing steps and those days were replaced by the average steps from the non-missing days.  
+The average and median did not change before and after the fix.  Full days were missing steps and those days were replaced by the average steps from the non-missing days.    
+
+Therefore, there was no impact by imputing the missing value.  
 
 ###Are there differences in activity patterns between weekdays and weekends?
 ####Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
